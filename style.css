@@ -1,0 +1,64 @@
+.divider{
+        color:#ffc107;
+        height: 0.2rem;
+        max-width: 3.25rem;
+        margin: 1.5rem auto;
+        background-color: #ffc107;
+        opacity: 1;
+    }
+
+.home{
+    background-image: url(bg-masthead.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+
+}
+.layar{
+    background-color: rgba(107, 86, 29, 0.556);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1,h4{
+    font-family: 'Shadows Into Light', cursive;
+
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+
+}
+p ,button,h6{
+    font-family: 'Acme', sans-serif;
+
+}
+
+
+.Service{
+      background-color:lightgoldenrodyellow;
+      background-position: center;
+      background-size: cover;
+      filter:blur(5) ;
+      -webkit-filter:blur(5) ;
+}
+.Service i{
+    color: #10100f;
+    font-size: 2.5rem;
+    padding: 12px 0;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+.Service i:hover{
+     color: #150a8e;
+     transform: scale(1.1,1.1);
+     -webkit-transform: scale(1.1,1.1);
+     -moz-transform: scale(1.1,1.1);
+     -ms-transform: scale(1.1,1.1);
+     -o-transform: scale(1.1,1.1);
+}
+
